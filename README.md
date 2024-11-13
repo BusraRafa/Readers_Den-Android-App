@@ -34,6 +34,44 @@ To get started with the Readers' Den Android app, follow these steps:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/Readers-Den.git
-### 2. Set Up Firebase
+```
+## 2. Set Up Firebase
 
 To integrate Firebase into the project, follow these steps:
+
+1. Go to Firebase Console.
+2. Create a new Firebase project (or use an existing one).
+3. Add your Android app to the Firebase project by registering your app’s package name.
+4. Download the `google-services.json` file and place it in the `app/` directory of the project.
+5. Enable Firebase Authentication, Firestore, and Firebase Cloud Messaging in the Firebase console.
+
+## 3. Sync the Project
+
+1. Open the project in Android Studio.
+2. Let Android Studio sync with Firebase to set up the required dependencies.
+3. Build and run the app on an emulator or a physical device.
+
+## App Usage
+
+### For Customers:
+1. **Sign Up / Log In**: Open the app and use Google Authentication to sign in or create a new account.
+2. **Browse Books**: View different book categories and explore available books.
+3. **Add to Cart**: Select books to add to the shopping cart.
+4. **Checkout**: Review your cart and proceed with payment to complete your purchase.
+
+### For Admins:
+1. **Admin Login**: Admins can log in using a separate admin panel with specific privileges.
+2. **Manage Books**: Admins can add new books, update existing listings, and remove books.
+3. **View Orders**: Admins can view all customer orders and update their statuses (e.g., shipped, completed).
+
+## Running the App
+
+1. Open the project in Android Studio.
+2. Make sure your Android device or emulator is set up.
+3. Run the app directly from Android Studio by clicking the **Run** button.
+
+## Important Files and Structure
+
+- **Authentication**: Handles user login and signup using Firebase Authentication.
+- **Admin Panel**: Allows the admin to add, edit, and delete book listings and manage orders.
+- **Cart & Payment**: The functionality for customers to manage their shopping cart and proceed with payment.
