@@ -34,3 +34,6 @@ To get started with the Readers' Den Android app, follow these steps:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/Readers-Den.git
+### 2. Set Up Firebase
+
+To integrate Firebase into the project, follow these steps:
